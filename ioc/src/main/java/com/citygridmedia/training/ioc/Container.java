@@ -1,4 +1,4 @@
-package com.citygridmedia.training.spring.ioc;
+package com.citygridmedia.training.ioc;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,6 +20,10 @@ public class Container
                 result = new HTMLReporter();
             } else if ("csvReporter".equals(componentName)) {
                 result = new CSVReporter();
+            }
+            
+            if (result != null) {
+                container.put(componentName, result);
             }
         }
         

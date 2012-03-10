@@ -1,4 +1,5 @@
-package com.citygridmedia.training.spring.ioc;
+package com.citygridmedia.training.spring.javaconfig;
+
 
 public class PDFReporter
     implements Reporter

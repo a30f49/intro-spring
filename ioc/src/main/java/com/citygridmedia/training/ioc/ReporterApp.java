@@ -1,4 +1,4 @@
-package com.citygridmedia.training.spring.ioc;
+package com.citygridmedia.training.ioc;
 
 public class ReporterApp
 {
