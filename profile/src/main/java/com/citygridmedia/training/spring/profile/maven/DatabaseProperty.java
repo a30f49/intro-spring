@@ -20,4 +20,20 @@ public class DatabaseProperty
         return Objects.toStringHelper(this).add("Database Driver", driver).add("Database URL", url).add("Username", username)
             .add("Password", password).toString();
     }
+    
+    public String getDriver() {
+        return driver;
+    }
+    
+    public String getUrl() {
+        return url;
+    }
+    
+    public String getUsername() {
+        return username;
+    }
+    
+    public String getPassword() {
+        return password;
+    }
 }
